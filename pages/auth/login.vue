@@ -47,12 +47,12 @@
                     >
                         Sign In
                     </button>
-                    <a
+                    <NuxtLink
                         class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
-                        href="#"
+                        :to="{name:'auth-forgotPassword'}"
                     >
                         Forgot Password?
-                    </a>
+                    </NuxtLink>
                 </div>
             </form>
         </div>

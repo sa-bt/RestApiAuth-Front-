@@ -60,16 +60,13 @@
                 </div>
 
                 <div class="password-input mb-6">
-                    <label
-                        for="password_confirmation"
-                        class="block text-gray-700 text-sm font-bold mb-2"
-                    >Password Confirm</label
-                    >
+                    <label for="password_confirmation" class="block text-gray-700 text-sm font-bold mb-2">
+                        Password Confirm
+                    </label>
 
                     <input
                         aria-describedby="passwordConfirmationHelp"
                         v-model="form.password_confirmation"
-
                         class="shadow appearance-none borderrounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
                         id="password_confirmation"
                         type="password"
