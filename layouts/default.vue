@@ -22,7 +22,7 @@
                 </template>
                 <template v-else>
                     <NuxtLink to="" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">List your property</NuxtLink>
-                    <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Trips</a>
+                    <NuxtLink :to="{name:'auth-twoFactorAuthentication'}" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Settings</NuxtLink>
                     <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Messages</a>
                     <a href="#" @click.prevent="logout" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">Logout</a>
                 </template>
